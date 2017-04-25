@@ -5,16 +5,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
+  selector: 'about',
   // template literal using backtick
   template: `
-        <ul>
-            <li><a routerLink='/'>Home</a></li>
-            <li><a routerLink='/about'>About</a></li>
-        </ul>
-        <router-outlet></router-outlet>
+        <h1>about this app</h1>
     `,
 })
-export class AppComponent  {
+export class AboutComponent  {
 
 }
